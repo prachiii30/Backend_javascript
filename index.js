@@ -7,6 +7,10 @@ app.get("/",(req,res)=>{
     res.send("hello you made your server")
 })
 
+app.get("/twitter",(req,res)=>{
+    res.send("hello you made your server this is twitter")
+})
+
 app.listen(port,()=>{
     console.log("port listening successfully")
 })
